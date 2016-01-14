@@ -1,0 +1,14 @@
+/* 产品页tab*/
+.product .tab{
+
+}
+.product .tab ul li{
+    width: 135px;
+    height: 80px;
+    color: #acacaf;
+    padding: 12px auto;
+}
+.product .tab ul li span{
+    display: block;
+    text-align: center;
+}
