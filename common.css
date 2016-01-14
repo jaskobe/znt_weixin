@@ -1,0 +1,68 @@
+/*组件*/
+body{
+    background: #000;
+}
+
+.wrap{
+   text-align: center;
+    box-sizing: border-box;
+}
+
+/*注册登录*/
+.form-input,
+.form-btn{
+    background: rgba(255, 255, 255, 0.38);
+    color: #fff;
+}
+.form-input{
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    border: none;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.form-input-first{
+    border-radius: 10px 10px 0 0;
+}
+.form-input-last{
+    border-radius: 0 0 10px 10px;
+}
+.form-input-border-bot{
+    border-bottom: solid 1px rgba(255, 255, 255, 0.6);
+}
+.form-btn{
+    margin: 53px auto;
+    width: 372px;
+    height: 65px;
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form-title{
+    color: #fff;
+    font-size: 40px;
+}
+
+/*产品表单*/
+.pro-form-btn{
+    width: 374px;
+    height: 80px;
+    margin: 20px auto;
+    background: #00b8f4;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.pro-form-input{
+    width: 524px;
+    height: 83px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: solid 1px #555;
+}
