@@ -1,0 +1,10 @@
+.form-box{
+     margin: 0 auto;
+     padding-top: 219px;
+     width: 372px;
+     text-align: center;
+ }
+.reg-wrap{
+    background: url("../img/bg-4.png") center no-repeat;
+    background-size: cover;
+}
