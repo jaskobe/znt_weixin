@@ -13,14 +13,59 @@
     <link rel="stylesheet" type="text/css" href="style/common.css">
 </head>
 <body>
+<link rel="stylesheet" type="text/css" href="style/reg-style.css">
 <link rel="stylesheet" type="text/css" href="style/invest-confirm.css">
     <header>
         <span class="icon-left"></span>
         <p>投资确认页</p>
         <span class="icon-close"></span>
     </header>
-    <div class="wrap invest">
-
+    <div class="wrap">
+        <div class="invest">
+            <p class="invest-txt">金羊-定期取</p>
+            <ul>
+                <li>
+                    <div class="invest-left">年化收益率</div>
+                    <div class="invest-right"><span>10</span>%</div>
+                </li>
+                <li>
+                    <div class="invest-left">期限</div>
+                    <div class="invest-right"><span>3</span>个月</div>
+                </li>
+                <li>
+                    <div class="invest-left">成立日</div>
+                    <div class="invest-right"><span>2015-10-12</span></div>
+                </li>
+            </ul>
+            <p class="invest-txt" style="margin-top: 36px;">投资赚收益</p>
+            <ul>
+                <li>
+                    <div class="invest-left">可用余额</div>
+                    <div class="invest-right"><span>6000</span>元</div>
+                </li>
+                <li>
+                    <div class="invest-left">购买金额</div>
+                    <div class="invest-right" style="line-height: 118px;width:400PX;"><input type="tel" class="ivt-money" autofocus="autofocus">元</div>
+                </li>
+                <li>
+                    <div class="invest-left">红包金额</div>
+                    <div class="invest-right"><span>0</span>元</div>
+                </li>
+                <li>
+                    <div class="invest-left">预期收益</div>
+                    <div class="invest-right"><span>0</span>元</div>
+                </li>
+            </ul>
+            <aside class="isagree-box invest-box">
+                <input type="checkbox" id="isagreeReg" checked>
+                <label for="isagreeReg" class="isagree"></label>
+                我同意 <a href="#">《金羊-定期取投资服务协议》</a>
+            </aside>
+            <button class="pro-form-btn ivt-btn">确认购买</button>
+            <p class="guarantee"><i class="bao"></i>
+                <span style="float: right;height: 30px;line-height: 30px;">账户资金安全由中信银行监管</span>
+            </p>
+        </div>
     </div>
 </body>
 </html>
