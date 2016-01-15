@@ -89,6 +89,7 @@
 .isagree{
     position: absolute;
     left: 10px;
+    cursor: pointer;
 }
 .isagree:before {
     content: "";
@@ -108,6 +109,12 @@ input[type=checkbox]:checked + .isagree:before {
     margin-right: 10px;
     text-align: center;
     line-height: 24px;
+}
+.invest input[type=checkbox]:checked + .isagree:before{
+    background: #0cad3a;
+}
+.incharge input[type=checkbox]:checked + .isagree:before{
+    background: #00a9f1;
 }
 /*产品表单*/
 .pro-form-btn{
@@ -142,20 +149,23 @@ header .icon-left{
     left: 30px;
     top:35px;
     display:block;
-    width: 30px;
+    width: 75px;
     height: 30px;
-    background: center url("../img/icon/icon-left.png") no-repeat;
+    background:url("../img/icon/icon.png") no-repeat;
+    background-position: 0 -130px;
     background-size: cover;
+    cursor: pointer;
 }
 header .icon-close{
     position:absolute;
     right: 30px;
     top:35px;
     display:block;
-    width: 30px;
+    width: 75px;
     height: 30px;
-    background: center url("../img/icon/icon-close.png") no-repeat;
+    background: 0 -8px url("../img/icon/icon.png") no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 /*产品底部footer*/
 .footer{
