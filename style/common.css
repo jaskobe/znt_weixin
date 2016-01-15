@@ -63,3 +63,22 @@
     border: none;
     border-bottom: solid 1px #555;
 }
+/*产品底部footer*/
+.footer{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.footer ul li{
+    display: inline-block;
+    border-right: 2px solid #9a9a9e;
+    height: 24px;
+    line-height: 22px;
+    padding:0 14px;
+}
+.footer ul li:last-child{
+    border: none;
+}
+.footer ul li a{
+    color: #9a9a9e;
+    font-size: 24px;
+}

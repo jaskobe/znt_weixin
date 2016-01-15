@@ -1,14 +1,169 @@
 /* 产品页tab*/
+.product{
+    width: 548px;
+    margin: 0 auto;
+}
 .product .tab{
-
+    overflow: hidden;
+    margin-top: 50px;
+}
+.product .tab ul{
+    overflow: hidden;
 }
 .product .tab ul li{
     width: 135px;
     height: 80px;
     color: #acacaf;
     padding: 12px auto;
+    border: 1px solid #acacaf;
+    float: left;
+    cursor: pointer;
+}
+.product .tab ul li.active{
+    color: #00b8f4;
 }
 .product .tab ul li span{
     display: block;
     text-align: center;
 }
+.product .name{
+    height: 26px;
+    line-height: 26px;
+    font-size: 26px;
+    margin-top: 12px;
+    font-weight: 800;
+}
+.product .regular{
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+/* 产品页info*/
+.info{
+    overflow: hidden;
+    display: none;
+}
+.info.active{
+    display: block;
+}
+.circliful{
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #00b8f4;
+    position: relative;
+}
+.info .info-rate{
+    position: absolute;
+    top: 68px;
+    left: 100px;
+}
+.info-rate ul li{
+    margin: 26px auto;
+}
+.info-rate p{
+    font-size: 56px;
+    height: 80px;
+    line-height: 80px;
+}
+.info-rate .rate{
+    font-size: 80px;
+}
+.info-rate .year-rate{
+    font-size:  26px;
+    color: #ababab;
+    height: 26px;
+    line-height: 26px;
+}
+.info-rate .rate-txt{
+    width: 116px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #00b8f4;
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info-rate  .jx{
+    margin-right: 40px;
+}
+.info-rate .term{
+    font-size: 26px;
+    color: #00b8f4;
+    height: 56px;
+    line-height: 56px;
+}
+.info-rate .term .term-num{
+    font-size: 56px;
+}
+.info .more{
+    background: #9a9a9e;
+    width: 148px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.info .more a{
+    color: #fff;
+}
+.invest{
+    overflow: hidden;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+.invest .ivt{
+    float: left;
+}
+.invest .xx{
+    width: 38px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 26px;
+}
+.invest p:first-child{
+    font-size: 26px;
+}
+.invest p{
+    font-size: 20px;
+    text-align: right;
+}
+.invest .avail{
+    font-size: 43px;
+    margin-left: 6px;
+}
+/* 待售倒计时*/
+.time{
+    color: #00b8f4;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 42px;
+    
+}
+.time ul li{
+    display: inline-block;
+    width:69px;
+    margin-right: 22px;
+}
+.time ul li span{
+    height: 79px;
+    line-height: 79px;
+    border: 1px solid #00b8f4;
+    font-size: 46px;
+    display: block;
+    margin-bottom: 3px;
+}
+.time ul li p{
+    color: #9a9a9e;
+    font-size: 25px;
+}
+.buy{
+    width: 456px;
+    font-size: 40px;
+    margin-top: 28px;
+    margin-bottom: 0;
+}
+

@@ -3,5 +3,6 @@
  */
 $(function(){
     $(".wrap").height($(window).height());
+   /* $(".wrap").width($(window).width());*/
     console.log($(window).height());
 });
