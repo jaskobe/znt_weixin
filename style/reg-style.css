@@ -1,10 +1,45 @@
+.reg-wrap{
+    background: url("../img/bg-4.png") center no-repeat;
+    background-size: cover;
+}
+
 .form-box{
      margin: 0 auto;
-     padding-top: 219px;
+     padding-top: 150px;
      width: 372px;
      text-align: center;
  }
-.reg-wrap{
-    background: url("../img/bg-4.png") center no-repeat;
+
+.form-box ul>li{
+    position: relative;
+}
+
+
+.form-box #isagreeReg{
+    display: none;
+}
+
+
+/*登录*/
+.login-wrap{
+    background: url("../img/bg-5.png") center no-repeat;
+    background-size: cover;
+}
+
+/*绑卡*/
+.bind-wrap{
+    background: url("../img/bg-3.png") center no-repeat;
+    background-size: cover;
+}
+
+/*账户认证*/
+.certify-wrap{
+    background: url("../img/bg-2.png") center no-repeat;
+    background-size: cover;
+}
+
+/*设置交易密码*/
+.setpwd-wrap{
+    background: url("../img/bg-1.png") center no-repeat;
     background-size: cover;
 }
