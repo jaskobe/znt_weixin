@@ -124,6 +124,11 @@ input[type=checkbox]:checked + .isagree:before {
     border: none;
     border-bottom: solid 1px #555;
 }
+/* 头部header*/
+header{
+    
+}
+
 /*产品底部footer*/
 .footer{
     margin-top: 60px;
