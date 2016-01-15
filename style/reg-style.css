@@ -43,3 +43,36 @@
     background: url("../img/bg-1.png") center no-repeat;
     background-size: cover;
 }
+
+/*表单错误提示框*/
+.reg-tip{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.codeDisabled{
+    background: #9a9a9e;
+}
+
+/*验证码*/
+.verify-code{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 130px;
+    height: 100%;
+    background: #00a9f1;
+}
+.verify-code img{
+    width: 100%;
+    height: 100%;
+}
