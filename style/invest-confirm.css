@@ -206,6 +206,13 @@
     line-height: 27px;
     font-size: 25px;
     margin-bottom: 12px;
+    width: 300px;
+    margin: 0 auto;
+}
+.user-center .info span{
+    float: left;
+    height: 32px;
+    line-height: 32px;
 }
 .user-center .more{
     background: #54545d;
@@ -219,15 +226,13 @@
     border-radius: 7px;
 }
 .user-center .buy{
-    display: inline-block;
     background: #12a7f4;
     color: #fff;
-    height: 32px;
-    line-height: 32px;
     border-radius: 5px;
     font-size: 17px;
     padding: 0 3px;
     cursor: pointer;
+    margin-left: 12px;
 }
 .user-center .invest-box{
     margin-top: 40px;
