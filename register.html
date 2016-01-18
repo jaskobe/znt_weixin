@@ -18,28 +18,33 @@
             <p class="form-title">注册</p>
             <ul>
                 <li>
-                    <input type="text" placeholder="请输入手机号" class="form-input form-input-first form-input-border-bot form-input-phone" style="margin-top: 65px">
+                    <input type="text" id="mobile" placeholder="请输入手机号" class="form-input form-input-first form-input-border-bot form-input-phone" style="margin-top: 65px">
                 </li>
                 <li>
-                    <input type="text" placeholder="请输入验证码" class="form-input form-input-border-bot form-input-card">
-                    <button class="form-input-btn-min">获取验证码</button>
+                    <input type="text" id="mobileValidateCode" placeholder="请输入验证码" class="form-input form-input-border-bot form-input-card">
+                    <button class="form-input-btn-min" id="msgCode">获取验证码</button>
                 </li>
                 <li>
-                    <input type="password" placeholder="请输入登录密码" class="form-input form-input-border-bot form-input-lock">
+                    <input type="password" id="signPwd" placeholder="请输入登录密码" class="form-input form-input-border-bot form-input-lock">
                 </li>
                 <li>
-                    <input type="password"  placeholder="请再次输入登录密码" class="form-input form-input-last form-input-lock">
+                    <input type="password" id="signPwdRepeat"  placeholder="请再次输入登录密码" class="form-input form-input-last form-input-lock">
                 </li>
+
             </ul>
             <aside class="isagree-box">
                 <input type="checkbox" id="isagreeReg">
-                <label for="isagreeReg" class="isagree"></label>
-                我同意 <a href="#">《智能投资金管理规定》</a>
+                <label for="isagreeReg" class="isagree" id="isagreeLable"></label>
+                我同意 <a href="#">《智能投注册协议》</a>
             </aside>
+            <div class="reg-tip"></div>
         </div>
-        <button class="form-btn">成为投资者</button>
+        <button class="form-btn" id="registerBtn">成为投资者</button>
     </div>
+
+
     <script src="js/common.js"></script>
+    <script src="js/register.js"></script>
 
 </body>
 </html>

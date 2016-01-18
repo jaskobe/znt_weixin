@@ -18,18 +18,25 @@
             <p class="form-title">登录</p>
             <ul>
                 <li>
-                    <input type="text" placeholder="请输入用户名/手机号" class="form-input form-input-first form-input-border-bot form-input-phone" style="margin-top: 65px">
+                    <input type="text" id="username" placeholder="请输入用户名/手机号" class="form-input form-input-first form-input-border-bot form-input-phone" style="margin-top: 65px">
                 </li>
                 <li>
-                    <input type="password" placeholder="请输入登录密码" class="form-input form-input-last form-input-lock">
+                    <input type="password" id="password" placeholder="请输入登录密码" class="form-input  form-input-lock">
+                </li>
+                <li>
+                    <input type="text" id="verifyCode" placeholder="请输入验证码" class="form-input form-input-last form-input-mail ">
+                    <a class="verify-code"><img alt="验证码" class="authcode"></a>
                 </li>
 
             </ul>
+            <div class="reg-tip"></div>
+
         </div>
-        <button class="form-btn">登录</button>
+        <button class="form-btn" id="loginbtn" >登录</button>
 
     </div>
 
     <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>
