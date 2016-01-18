@@ -17,26 +17,19 @@
 <link rel="stylesheet" type="text/css" href="style/invest-confirm.css">
     <header>
         <span class="icon-left"></span>
-        <p>充值到智能投余额</p>
+        <p>提现到银行卡</p>
         <span class="icon-close"></span>
     </header>
     <div class="wrap">
-        <div class="invest incharge">
-<!--            <p class="invest-txt">金羊-定期取</p>
-            <p class="invest-txt" style="margin-top: 22px;">投资赚收益</p>-->
+        <div class="invest incharge withdraw">
             <ul>
                 <li>
                     <div class="invest-left">持卡人</div>
                     <div class="invest-right">王金鑫</div>
                 </li>
                 <li>
-                    <div class="invest-left">充值金额</div>
-                    <div class="invest-right" style="line-height: 155px;font-size: 20px;"><input type="tel" class="ivt-money" autofocus="autofocus">元</div>
-                </li>
-                <li>
-                    <div class="invest-left">手机验证码</div>
-                    <div class="invest-right"><a class="sendcode">发送</a></div>
-                    <div class="invest-right"><input class="input-code"></div>
+                    <div class="invest-left">提现金额</div>
+                    <div class="invest-right" style="line-height: 180px;font-size: 20px;"><input type="tel" class="ivt-money" autofocus="autofocus">元</div>
                 </li>
                 <li>
                     <div class="invest-left" style="font-size: 20px;line-height: 190px;">
@@ -44,17 +37,21 @@
                     </div>
                     <div class="invest-right " style="line-height: 145px;"><i class="next"></i></div>
                 </li>
+                <li>
+                   <input type="tel" placeholder="输入交易密码" >
+                </li>
                 <p class="jiebang">怎么解绑银行卡&nbsp;?</p>
             </ul>
-            <aside class="isagree-box invest-box incharge-box">
-                <input type="checkbox" id="isagreeReg" checked>
-                <label for="isagreeReg" class="isagree"></label>
-                我同意 <a href="#">《智能投资金管理规定》</a>
+            <aside class="withdraw-box">
+                <p>账户可用余额10000.00元</p>
+                <p>扣除手续费140.00元后，可用余额为324.00</p>
             </aside>
-            <button class="pro-form-btn ivt-btn">确认充值</button>
-            <p class="incharge-tip">
-                您的资金将从充值银行卡转入合作银行监管账户并提现在智能投的余额中
-            </p>
+            <button class="pro-form-btn ivt-btn" style="margin-top: 75px;">确认提现</button>
+            <aside class="problem">
+                <p>提现遇到问题？<a href="tel:4009617619">拨打客服电话</a></p>
+                <p>您的资金将从合作银行保管账号转入提现银行卡</p>
+            </aside>
+
         </div>
     </div>
 </body>
