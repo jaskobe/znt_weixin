@@ -167,6 +167,18 @@ header .icon-close{
     background-size: cover;
     cursor: pointer;
 }
+header .icon-exit{
+    position: absolute;
+    top: 27px;
+    font-size: 16px;
+    right: 12px;
+    background: left center url("../img/icon/icon-right.png") no-repeat;
+    background-size: 16px 16px;
+    padding-left: 20px;
+    height: 16px;
+    line-height: 16px;
+    cursor: pointer;
+}
 /*产品底部footer*/
 .footer{
     margin-top: 60px;

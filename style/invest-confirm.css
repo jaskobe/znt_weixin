@@ -167,3 +167,73 @@
     color: #00b8f4;
     cursor: pointer;
 }
+.user-center .invest ul li{
+    height: 102px;
+}
+.user-center .invest-left,.user-center .invest-right{
+    height: 84px;
+    line-height: 138px;
+}
+.user-center .invest-right span{
+    display: inline-block;
+    margin-left: 6px;
+}
+.user-center .personal{
+    font-size: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 48px;
+}
+.user-center .hexagon{
+    width: 106px;
+    height: 115px;
+    margin: 0 auto;
+    background-image: url("../img/icon/hexagon.png");
+    background-color: #00b8f4;
+    overflow: hidden;
+    line-height: 165px;
+}
+.user-center .hexagon img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.user-center .info{
+    height: 32px;
+    line-height: 30px;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.user-center .more{
+    background: #54545d;
+    color: #fff;
+    padding: 1px 16px;
+    font-size: 15px;
+    width: 62px;
+    margin:13px auto 17px auto;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 7px;
+}
+.user-center .buy{
+    display: inline-block;
+    background: #12a7f4;
+    color: #fff;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 0 3px;
+    cursor: pointer;
+}
+.user-center .invest-box{
+    margin-top: 40px;
+}
+.user-center .invest-box button{
+    font-size: 30px;
+    width: 374px;
+}
+.user-center .footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
