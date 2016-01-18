@@ -4,7 +4,7 @@
 $(function(){
     var userName = $("#username"),
         password = $("#password"),
-        verifyCode = $("#verifycode"),
+        verifyCode = $("#verifyCode"),
         tip = $(".reg-tip"),
         refCode = $(".verify-code"),
         loginBtn = $("#loginbtn"),
@@ -39,9 +39,6 @@ $(function(){
     }
 
     function checkVerifyCode(e) {
-        if(e && e.keyCode!=13){
-            return;
-        }
         if (!verifyCode || verifyCode.val().length ==0) {
             tip.html("*请输入验证码").show();
             return false;
