@@ -188,19 +188,22 @@
     width: 106px;
     height: 115px;
     margin: 0 auto;
-    background-image: url("../img/icon/hexagon.png");
-    background-color: #00b8f4;
     overflow: hidden;
     line-height: 165px;
+    position: relative;
+}
+.bj-img{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .user-center .hexagon img{
-    width: 60px;
-    height: 60px;
-    margin: 0 auto;
+    width: 100%;
+    height:100%;
 }
 .user-center .info{
     height: 32px;
-    line-height: 30px;
+    line-height: 27px;
     font-size: 25px;
     margin-bottom: 12px;
 }
