@@ -97,10 +97,10 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.incharge ul li:nth-child(4){
-    background: 0 45px url("../img/icon/bandbank.png") no-repeat;
-    padding-left: 77px;
-}
+/*.incharge ul li:nth-child(4){
+    background: 0 45px url("../img/icon/icon.png") no-repeat;
+
+}*/
 .incharge ul li:last-child div{
     line-height: 145px;
 }
@@ -108,7 +108,7 @@
     width: 20px;
     height: 20px;
     display: inline-block;
-    background:right center url("../img/icon/next.png") no-repeat;
+    background:-32px -184px url("../img/icon/icon.png") no-repeat;
 }
 .incharge .jiebang{
     font-size: 20px;
@@ -116,6 +116,7 @@
     margin-top: 22px;
     text-align: right;
     margin-bottom: 53px;
+    cursor: pointer;
 }
 .incharge-box{
     width: 345px;
@@ -130,9 +131,39 @@
 }
 .incharge .input-code{
     border:none;
-    font-size: 20px;
     text-align: right;
     width: 220px;
     margin-right: 12px;
     font-size: 28px;
+}
+.icon-band{
+    display: inline-block;
+    width: 120px;
+    height: 55px;
+    background: -12px -58px url("../img/icon/icon.png") no-repeat;
+    padding-left: 55px;
+    overflow: hidden;
+    line-height: 55px;
+    font-style: normal;
+}
+.withdraw ul li:nth-child(4){
+    line-height: 170px;
+}
+.withdraw ul li:nth-child(4) input{
+    width: 100%;
+    border: none;
+}
+.withdraw-box{
+    font-size: 20px;
+    line-height: 40px;
+}
+.withdraw .problem{
+    font-size: 16px;
+    line-height: 32px;
+    margin: 80px 0 50px 0;
+}
+.withdraw .problem a{
+    border: none;
+    color: #00b8f4;
+    cursor: pointer;
 }
